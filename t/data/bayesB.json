@@ -1,0 +1,89 @@
+{
+        "parameters": [
+            {
+                "para": "y",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "Z",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "startpi",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "startdf",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "startscale",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "alphapi",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "betapi",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "truepi",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "truedef",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "truescale",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "numiter",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "skip",
+                "type": "",
+                "description": ""
+            },
+            {
+                "para": "burnIn",
+                "type": "",
+                "description": ""
+            },
+            {
+                "value": "1002",
+                "para": "Seed",
+                "type": "integer",
+                "description": ""
+            },
+            {
+                "value": "\"results\"",
+                "para": "Save.at",
+                "type": "string",
+                "description": ""
+            }
+        ],
+        "origin": "data/Bayes_C.R",
+        "dependencies": [
+            "msm"
+        ],
+        "name": "BayesB",
+        "call": "(y,Z,startpi,startdf,startscale,alphapi,betapi,truepi, truedef, truescale,numiter,skip,burnIn,Seed=1002,Save.at=\"results\")",
+        "fun": "{OK...}",
+        "author": "nmatasci"
+    }
